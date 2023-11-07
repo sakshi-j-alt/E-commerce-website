@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            div{
+                background-color:rgb(251, 242, 231);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .parent{
+                width: 400px;
+                height: 400px;
+                display: grid;
+               background-color: yellow;
+               padding: 10px;
+               text-align: center;
+               border-radius: 10px;
+            }
+            .child1{
+                margin-top: 5px;
+                border-radius: 10px;
+            }
+            .child2{
+                margin-top: 5px;
+                border-radius: 10px;
+            }
+            
+            .child3{
+                margin-top: 5px;
+                border-radius: 10px;
+            }
+            .child4{
+                margin-top: 5px;
+                border-radius: 10px;
+            }
+            .child6{
+                margin-top: 5px;
+                border-radius: 10px;
+            }
+            .child5{
+                margin-top: 8px;
+                background-color: red;
+                color: white;
+                text-align: center;
+                border-radius: 10px;
+            }
+        </style>
+    <body>
+        <div>
+            <form action="registration.php" class="parent" method="post" >
+                <h4 style="text-align:center; font-size: 30px;margin: 5px;">Registration form</h4>
+                <input type="text" class="child1" name="username" placeholder="enter username">
+                <input type="password" class="child2" name="pass1" placeholder="enter password">
+                <input type="password" class="child3" name="pass2" placeholder="retype password">
+                <textarea name="email" class="child4" cols="30" rows="3" id="" placeholder="enter an email"></textarea>
+                <input type="submit" value="registration" class="child5">
+            </form>
+        </div>
+    </body>
+</html>
